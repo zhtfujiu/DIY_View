@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyView01">
+        <!-- 分别是填充的颜色和未填充的颜色设置-->
+        <attr name="arcFilledColor" format="color"/>
+        <attr name="arcEmptyColor" format="color"/>
+
+        <!-- 分别是外侧弧线的宽度  内侧弧线的宽度-->
+        <attr name="arcOutsideWidth" format="dimension"/>
+        <attr name="arcInsideWidth" format="dimension"/>
+        <!-- 两个弧线之间的距离 -->
+        <attr name="arcDistance" format="dimension"/>
+
+        <!-- 中间要显示的文字内容和大小-->
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+
+        <!-- 刻度总数 -->
+        <attr name="tikeCount" format="integer"/>
+
+        <!-- 中间指针的颜色 -->
+        <attr name="pointerColor" format="color"/>
+
+        <!-- 中间小圆的颜色  半径 -->
+        <attr name="minCircleColor" format="color"/>
+        <attr name="minCircleRadius" format="dimension"/>
+
+    </declare-styleable>
+</resources>
